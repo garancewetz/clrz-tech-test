@@ -1,0 +1,11 @@
+// carousel
+
+.carousel-indicators {
+  @apply mb-7.5;
+  [data-bs-target] {
+    @apply h-2 w-2 rounded-full bg-white mx-2.5 opacity-100  border-0;
+    &.active {
+      @apply bg-dark-500;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.button-el {
+  @apply py-2.5 px-4.5;
+  &.large {
+    @apply py-4.5 px-7;
+  }
+  &.orange {
+    @apply bg-orange-500 hover:bg-orange-600 text-white;
+  }
+}
